@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "labequipment"
-version = "0.0.2"
+version = "0.0.4"
 authors = [
   { name="Tristan Melton", email="tristanmelton@proton.me" },
 ]
@@ -26,5 +26,5 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/tristanmelton/LabDriver"
-Issues = "https://github.com/tristanmelton/LabDriver/issues"
+Homepage = "https://github.com/tristanmelton/LabEquipment"
+Issues = "https://github.com/tristanmelton/LabEquipment/issues"
