@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "labequipment"
+version = "0.0.2"
+authors = [
+  { name="Tristan Melton", email="tristanmelton@proton.me" },
+]
+description = "A library for control of common lab equipment."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  'pyVISA >= 1.14.0',
+  'numpy >= 1.26.0',
+  'pandas >= 2.2.0',
+  'easy-scpi >= 0.1.4',
+  'pythonnet >= 3.0.3',
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/tristanmelton/LabDriver"
+Issues = "https://github.com/tristanmelton/LabDriver/issues"

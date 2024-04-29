@@ -1,4 +1,4 @@
-# LabDriver
+# LabEquipment
 Library of classes for interfacing with common lab equipment in Python.
 
 # Required Libraries
