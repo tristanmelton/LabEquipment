@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plot
-from instruments.oscilloscopes.DS1104 import DS1104
+from labequipment.instruments.oscilloscopes.DS1104 import DS1104
 import pandas as pd
 import os
 

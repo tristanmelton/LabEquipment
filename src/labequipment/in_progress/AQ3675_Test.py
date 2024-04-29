@@ -5,7 +5,7 @@ Created on Sat May 21 14:30:57 2022
 @author: allen
 """
 
-from instruments.osa.AQ3675 import AQ3675
+from labequipment.instruments.osa.AQ3675 import AQ3675
 import matplotlib.pyplot as plt
 import os
 plt.close('all')

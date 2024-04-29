@@ -5,7 +5,7 @@ Created on Thu May 26 17:25:04 2022
 @author: allen
 """
 
-from instruments.awg.signal_generator.SG384 import SG384
+from labequipment.instruments.awg.signal_generator.SG384 import SG384
 import matplotlib.pyplot as plt
 plt.close('all')
 

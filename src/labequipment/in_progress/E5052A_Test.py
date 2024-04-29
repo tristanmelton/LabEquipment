@@ -4,7 +4,7 @@ Created on Fri Jul  8 08:03:57 2022
 
 @author: allen
 """
-from instruments.ssa.E5052A import E5052A
+from labequipment.instruments.ssa.E5052A import E5052A
 import matplotlib.pyplot as plt
 import os
 

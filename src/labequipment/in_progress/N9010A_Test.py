@@ -4,7 +4,7 @@ Created on Fri Jul  8 00:18:42 2022
 
 @author: allen
 """
-from instruments.ssa.N9010A import N9010A
+from labequipment.instruments.ssa.N9010A import N9010A
 import matplotlib.pyplot as plt
 import os
 plt.close('all')

@@ -4,7 +4,7 @@ Created on Sat Jul  9 15:09:59 2022
 
 @author: allen
 """
-from instruments.oscilloscopes.TDS7404 import TDS7404
+from labequipment.instruments.oscilloscopes.TDS7404 import TDS7404
 import matplotlib.pyplot as plt
 import os
 plt.close('all')

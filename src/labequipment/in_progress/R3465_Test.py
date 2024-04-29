@@ -5,7 +5,7 @@ Created on Sat May 21 14:30:57 2022
 @author: allen
 """
 
-from instruments.esa.R3465 import R3465
+from labequipment.instruments.esa.R3465 import R3465
 import matplotlib.pyplot as plt
 import os
 plt.close('all')
